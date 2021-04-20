@@ -26,7 +26,7 @@ const Sidebar = () => {
              
              isAdmin ?
              
-         <div>
+                     (<div>
                         <li>
                             <Link to="/dashboard" className="text-white">
                                 <FontAwesomeIcon icon={faGripHorizontal} /> <span>Dashboard</span> 
@@ -53,9 +53,7 @@ const Sidebar = () => {
                                 <FontAwesomeIcon icon={faCogs} /> <span>MangeService</span>
                             </Link>
                         </li>
-                </div> :
-                
-                <div>
+                </div>) :(<div>
                         
                 <li>
                         <Link to="/order" className="text-white">
@@ -72,7 +70,7 @@ const Sidebar = () => {
                             <FontAwesomeIcon icon={faCommentDots} /> <span>Review</span> 
                         </Link>
                     </li>
-        </div>
+        </div>)
 }
                     
 
