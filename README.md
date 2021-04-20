@@ -1,10 +1,15 @@
-# Demo 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Digital Agency show Demo
+(https://digitalagency-3988b.web.app/).
 
 ## Feautures
 
-In the project directory, you can run:
+- Home page fully responsive
+- Scorl on Animation 
+- admin pannel 
+- dynamic riview show in ui 
+- dynamic ser show in ui
+- Mouse hover Effect 
 
-### `npm start`
+
 
