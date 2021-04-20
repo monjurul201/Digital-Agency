@@ -6,3 +6,17 @@
     margin: 15px;
     height: 400px;
 }
+
+.animation img:hover {
+    /* transform: rotate(360deg); */
+    transform: scale(0.6);
+    transition: 0.5s;
+  }
+
+  .singleProduct:hover{
+     /* background-color: bisque; */
+     background-color: orange;
+     /* transform: translateY(-30px); */
+     transform: scale(0.7);
+     transition: 0.95s;
+  }

@@ -4,10 +4,12 @@ import { CDBInput, CDBCard, CDBCardBody, CDBIcon, CDBBtn, CDBContainer } from "c
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './subscribe.css'
+
 const Subscribe = () => {
     return (
       <div className=' subscribe mt-5'>
                 <div style={{height:'70vh' }} className='d-flex align-items-center '>
+                   
                     <CDBContainer>
                     <CDBCard style={{ width: "30rem",margin:'0 auto',BackgroundColor:'black' }}>
                     <CDBCardBody className="mx-4">
@@ -27,6 +29,7 @@ const Subscribe = () => {
                     </CDBCardBody>
                     </CDBCard>
                 </CDBContainer>
+              
                 </div>
       </div>
        

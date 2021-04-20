@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import ServiceProduct from '../ServiceProduct/ServiceProduct';
+import Fade from 'react-reveal/Fade'
 
 const Service = () => {
     const [service,setService]=useState([])
@@ -19,12 +20,13 @@ const Service = () => {
         <div>
             <h1 className='text-center mt-5'>Our <span style={{borderBottom:'5px solid hotpink',color:'hotpink'}}>Services</span></h1>
             <div className='container d-flex justify-content-center mt-5'>
-           
+           <Fade bottom big>
             <Row>
                 {
                     service.map(service => (<ServiceProduct key={service._id} service={service}></ServiceProduct> ))
                 }  
             </Row>
+            </Fade>
         </div>
         </div>
     );
