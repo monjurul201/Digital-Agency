@@ -8,7 +8,7 @@
 - Scorl on Animation 
 - admin pannel 
 - dynamic riview show in ui 
-- dynamic ser show in ui
+- dynamic service show in ui
 - Mouse hover Effect 
 
 
