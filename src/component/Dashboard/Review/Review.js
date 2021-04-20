@@ -36,10 +36,10 @@ const Review = () => {
        
         <div className='d-flex'>
             
-            <div className='col-md-6'>
+            <div className='col-md-4'>
                 <Sidebar/>
             </div>
-            <div className='col-md-6 mt-5'>
+            <div className='col-md-7 mt-5 ml-5 pr-3'>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div>
                      <input  className='form-control w-75 ' {...register("name", { required: true })} placeholder='Your Name' />

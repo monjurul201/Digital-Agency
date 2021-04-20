@@ -4,7 +4,7 @@ import Sidebar from '../Sidebar/Sidebar';
 const Dashboard = () => {
     return (
         
-        <div className="col-md-6">
+        <div className="col-md-4">
           <Sidebar />
         </div>
       

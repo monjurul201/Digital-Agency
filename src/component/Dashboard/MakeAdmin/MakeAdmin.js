@@ -32,11 +32,11 @@ const newAdmin={...admin}
 
 }
     return (
-        <div style={{backgroundColor:'gray'}} className='d-flex'>
-            <div className='col-md-6'>
+        <div  className='d-flex'>
+            <div className='col-md-4'>
                 <Sidebar/>
             </div>
-            <div  className='col-md-6 mt-5'>
+            <div  className='col-md-7 mt-5 ml-5 pr-3'>
             <form>
                 <input className='w-50 form-control' onBlur={handleBlur} name='email' placeholder='Type Valid Email' />
                 <br/>
