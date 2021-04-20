@@ -19,7 +19,7 @@ const Sidebar = () => {
 
 
     return (
-        <div className="sidebar d-flex flex-column justify-content-between  col-md-4 py-5 px-4" style={{height:"100vh"}}>
+        <div className="sidebar d-flex flex-column justify-content-between  col-md-3 py-5 px-4" style={{height:"100vh"}}>
             <ul className="list-unstyled">
                 
              {  

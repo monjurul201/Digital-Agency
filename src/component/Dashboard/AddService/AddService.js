@@ -54,11 +54,11 @@ const AddService = () => {
 
  
   return (
-      <div className='d-flex'>
-      <div className="col-md-4">
+      <div className='row ml-2'>
+      <div className="col-md-3">
         <Sidebar />
       </div>
-      <div className="col-md-8 mt-5 ml-3 pr-2">
+      <div className="col-md-8 mt-5 ml-5  p-5">
    
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className='form-group'>

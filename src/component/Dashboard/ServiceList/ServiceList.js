@@ -18,11 +18,11 @@ useEffect(() => {
 
 
     return (
-      <div className='d-flex'>
-            <div className='col-md-4'>
+      <div className='row ml-2'>
+            <div className='col-md-3'>
                <Sidebar/>
             </div>
-        <div className='col-md-7 mt-5 ml-5 pr-3'>
+        <div className="col-md-8 mt-5 ml-5  p-5">
            
            <Table responsive="sm">
                     <thead >
